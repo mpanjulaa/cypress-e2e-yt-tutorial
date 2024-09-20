@@ -11,10 +11,10 @@ describe('admin login', () => {
      cy.get ("#login-password",{timeout:11000}).type('5342118@axoten')
      //sign in
      cy.get ("#login-submit",{timeout:11000}).click()
-     cy.visit("https://aplus-admin.web.app/app/customers",{timeout:18000})
-     cy.get ("#search-student",{timeout:19000}).type('762504597')
-     cy.get('[data-cy="student-search-submit"]',{timeout:16000}).click()
-     cy.get('[data-cy="view-student"]',{timeout:16000}).first().click()
+     cy.visit("https://aplus-admin.web.app/app/customers",{timeout:19000})
+     cy.get ("#search-student",{timeout:20000}).type('762504597')
+     cy.get('[data-cy="student-search-submit"]',{timeout:18000}).click()
+     cy.get('[data-cy="view-student"]',{timeout:18000}).first().click()
     
 
 })

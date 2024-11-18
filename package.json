@@ -1,12 +1,12 @@
 {
-  "name": "cypressautomation",
+  "name": "cypres-e2e-yt-tutorial",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "open:cypress": "npx cypress open"
   },
-  "author": "Anjula",
+  "author": "Anjula Malshani",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.13.3"

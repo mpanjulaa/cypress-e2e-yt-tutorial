@@ -15,6 +15,7 @@ describe('Aplus Video', () => {
         cy.get('[data-cy="subject-link"]',{timeout:8000}).first().click()
         cy.wait(2000)
         cy.get('[data-cy="tutor-single"]',{timeout:8000}).click()
+        cy.wait(2000)
         cy.get('[data-cy="tutor-year-btn"]',{timeout:12000}).eq(3).click()
         cy.wait(2000)
         cy.get('[data-cy="course-card"]',{timeout:12000}).first().click()

@@ -21,6 +21,7 @@ describe('Aplus Edit Profile', () => {
         cy.get('[data-cy="district"]',{timeout:6000}).type("Colombo")
         cy.get('[data-cy="address"]',{timeout:6000}).clear()
         cy.get('[data-cy="address"]',{timeout:6000}).type("test account,test")
+       
         cy.get('[data-cy="profile-save-btn"]',{timeout:6000}).click()
 
 
